@@ -12,5 +12,5 @@
   "devDependencies": {
     "tailwindcss": "^3.4.4"
   },
-  "homepage": "/dist/index.html"
+  "homepage": "./"
 }
