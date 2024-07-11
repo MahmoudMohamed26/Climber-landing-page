@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+    scroll-behavior: smooth !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #A48971;
+    border-radius: 2em;
+}
+
+
+.notshow1 {
+    opacity: 0;
+    transform: translateX(-200px);
+}
+
+.show1 {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+h1.show1 {
+    opacity: 0.40;
+    transform: translateX(0);
+}
+
+.notshow2 {
+    opacity: 0;
+    transform: translateY(200px);
+}
+
+.show2 {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.specialfont {
+    font-family: "Mohave", sans-serif;
+}
+
+.specialshadow{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.imgpos {
+    background-position: 15px 25px;
+}
+
+.imgpos2 {
+    background-position-y: 233px;
+}
+
+.failed {
+    border: solid 1px #A32D2D;
+}
+
+.success {
+    border: solid 1px #5CB85C;
+}
